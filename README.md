@@ -37,7 +37,7 @@ plt.xlabel('Year')
 plt.ylabel('Global Sales (Millions)')
 plt.grid(True)
 plt.legend()
-plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
+plt.xticks(rotation=45)
 plt.show()
 ```
 
