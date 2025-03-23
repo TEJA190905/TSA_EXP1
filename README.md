@@ -22,7 +22,7 @@ Register Number: 212223240168
 import pandas as pd
 import matplotlib.pyplot as plt
 
-file_path = 'vgsales.csv'  # Replace with the actual file path
+file_path = 'vgsales.csv' 
 data = pd.read_csv(file_path)
 
 data['Year'] = pd.to_datetime(data['Year'], format='%Y', errors='coerce')
